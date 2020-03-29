@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
-const User = mongoose.model('User');
 
 module.exports = () => {
+  const User = mongoose.model('users');
   return new User({}).save();
 };

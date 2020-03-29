@@ -6,4 +6,4 @@ const userSchema = new Schema({
   displayName: String
 });
 
-mongoose.model('User', userSchema);
+mongoose.model('users', userSchema);
